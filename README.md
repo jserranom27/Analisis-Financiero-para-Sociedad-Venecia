@@ -1,54 +1,77 @@
-📊 Análisis Financiero para Sociedad Venecia
-Este proyecto aplica técnicas de ciencia de datos para analizar el desempeño financiero de dos taxis pertenecientes a una pequeña sociedad en Colombia. A partir de registros manuales desordenados e incompletos, se digitalizó y estructuró la información para evaluar ingresos, egresos, deudas y reparaciones, detectar patrones y proponer decisiones estratégicas.
+# 📊 Proyecto de Ciencia de Datos: Sociedad Venecia – Análisis Financiero de Taxis 🚖💰
 
-🧾 Descripción del Proyecto
-El objetivo principal es comprender el flujo de dinero y evaluar la viabilidad de decisiones estratégicas, como la transición a plataformas de transporte como Uber o DiDi. Se busca:
+![Portada](Flux_Dev_Create_a_clean_and_professional_infographicstyle_imag_0.jpg)
 
-Organizar y estructurar los datos existentes.
+## 📘 Descripción
 
-Crear visualizaciones que permitan entender el estado financiero y operativo de los taxis.
+Este proyecto analiza el flujo financiero de dos taxis pertenecientes a una pequeña sociedad en Colombia. A partir de registros manuales en papel, se digitalizó la información para evaluar ingresos, egresos, deudas y reparaciones. El análisis permite detectar patrones, evaluar la rentabilidad y simular escenarios estratégicos como el ingreso a plataformas como Uber o DiDi.
 
-Realizar un análisis exploratorio para identificar tendencias, anomalías y oportunidades de mejora.
+---
 
-Estimar indicadores clave como rentabilidad mensual por vehículo, impacto de reparaciones o daños frecuentes, evolución de las deudas y pagos.
+## ⚙️ Tecnologías utilizadas
 
-Simular escenarios hipotéticos y proponer recomendaciones claras para los socios.
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-🛠️ Tecnologías Utilizadas
-Python: Lenguaje principal para el análisis y procesamiento de datos.
+---
 
-Pandas: Librería utilizada para la manipulación y análisis de datos.
+## 🔍 Análisis del Proyecto
 
-Matplotlib y Seaborn: Librerías empleadas para crear visualizaciones efectivas y atractivas de los resultados.
+### 1. Organización y Estructuración de los Datos
 
-Jupyter Notebook: Entorno interactivo para el desarrollo y documentación del análisis.
+Los datos fueron inicialmente recopilados a mano, en hojas sueltas y en condiciones poco estructuradas. Se realizó un trabajo meticuloso de digitalización y limpieza para poder analizarlos con herramientas de ciencia de datos.
 
-📈 Análisis del Proyecto
-1. Preparación de los Datos
-Se digitalizaron registros manuales, organizando la información en estructuras de datos adecuadas para el análisis. Se manejaron datos faltantes y se normalizaron las variables para facilitar la interpretación.
+![Digitalización de datos](Flux_Dev_Create_a_clean_and_professional_infographicstyle_imag_1.jpg)
 
-2. Análisis Exploratorio de Datos (EDA)
-Se realizaron visualizaciones para comprender la distribución de ingresos, egresos y deudas. Se identificaron patrones y anomalías que podrían afectar la rentabilidad de los vehículos.
+---
 
-3. Evaluación de Indicadores Financieros
-Se calcularon métricas clave como la rentabilidad mensual por vehículo y el impacto financiero de las reparaciones. Se analizó la evolución de las deudas y los pagos realizados.
+### 2. Exploración y Visualización Financiera
 
-4. Simulación de Escenarios
-Se exploraron escenarios hipotéticos, como la venta de un taxi y la incorporación a plataformas de transporte, evaluando su viabilidad financiera.
+Se crearon visualizaciones clave para identificar el comportamiento mensual de ingresos, egresos y entregas a los socios. También se analizaron las reparaciones y su impacto financiero.
 
-📊 Visualizaciones Destacadas
-Distribución de Ingresos y Egresos: Gráficos que muestran la variabilidad mensual de los ingresos y egresos de cada taxi.
+#### Comparación de entregas mensuales recibidas contra el estandar
 
-Evolución de Deudas: Línea temporal que refleja el comportamiento de las deudas a lo largo del tiempo.
+![Comparación de entregas](comparacion_entregas.png)
 
-Impacto de Reparaciones: Análisis del efecto de las reparaciones en la rentabilidad mensual.
+#### Visualización de gastos y reparaciones
 
-📌 Conclusiones
-El análisis permitió identificar áreas de mejora en la gestión financiera de los taxis. Se evidenció la necesidad de un registro más sistemático y la consideración de alternativas estratégicas para mejorar la rentabilidad.
+![Comparativa de ingresos](comparativa_ingresos_mercado.png)
 
-🔮 Próximos Pasos
-Implementar un sistema digital de registro de ingresos y egresos.
+#### Visualización de ingresos vs gastos
 
-Evaluar en profundidad la viabilidad de migrar a plataformas de transporte.
+![Comparativa de ingresos vs gastos](ingresos_vs_gastos.png)
 
-Continuar el monitoreo financiero para tomar decisiones informadas.
+---
+
+### 3. Evaluación Financiera y desempeño de conductores
+
+Seobserva y estudian las finanzas y comportamientos de los conductores de los vehiculos para estudiar el impacto que esto podria tener en la economia de la sociedad y los taxis.
+
+![Gastos de conductores](detalle_gastos_conductores.png)
+
+![deudas de conductores](deudas_conductores.png)
+
+------
+
+### 4. Evaluación Financiera y Escenarios
+
+Se calcularon indicadores clave como la rentabilidad mensual por taxi, la evolución de las deudas, y el impacto acumulado de reparaciones. Además, se evaluaron decisiones estratégicas hipotéticas como la venta de un taxi y la integración a plataformas de movilidad.
+
+![Evaluación estratégica](Flux_Dev_Create_a_clean_and_professional_infographicstyle_imag_3.jpg)
+
+---
+
+## ✅ Conclusiones
+
+El análisis financiero permitió identificar oportunidades de mejora operativa y financiera. Se comprobó que decisiones como digitalizar registros o entrar a plataformas podrían optimizar significativamente los ingresos de los socios.
+
+---
+
+## 🔜 Próximos Pasos
+
+- Implementar un sistema digital para el registro de datos.
+- Simular ingresos reales usando plataformas como Uber o DiDi.
+- Continuar con el análisis periódico de los datos para mejorar la toma de decisiones.
